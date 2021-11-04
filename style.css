@@ -51,11 +51,14 @@ tr:first-child {
     height: 50px;
     right: 50px;
     top: 735px;
-    bottom: 15px;
+    bottom: left 15px;
 }
 
-.zzz.photo:hover {
+.zzz:hover {
     content: "+996 704 29 86 34";
     color: #fff;
     text-shadow: 1px 1px 2px green;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: flex-start;
 }
